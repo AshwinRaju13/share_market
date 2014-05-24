@@ -1,5 +1,8 @@
-import unittest
 import os
+import sys
+sys.dont_write_bytecode = True
+
+import unittest
 from share import *
 
 invalid_input = 'Invalid file type or format'
